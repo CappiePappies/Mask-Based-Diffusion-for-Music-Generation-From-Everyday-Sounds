@@ -50,6 +50,94 @@ WE CAN CHANGE LATER
 
 ---
 
+## 🎧 Sample Audio
+
+<table>
+  <tr>
+    <th>Input (Everyday Sound)</th>
+    <th>Output (Generated Music)</th>
+  </tr>
+  
+  <tr>
+    <td>
+      <audio controls>
+        <source src="Samples\everyday_sound\clock_tick.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="samples/sample1_output.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <audio controls>
+        <source src="samples/sample2_input.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="samples/sample2_output.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <audio controls>
+        <source src="samples/sample3_input.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="samples/sample3_output.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <audio controls>
+        <source src="samples/sample4_input.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="samples/sample4_output.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <audio controls>
+        <source src="samples/sample5_input.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="samples/sample5_output.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <audio controls>
+        <source src="samples/sample6_input.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="samples/sample6_output.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+</table>
+
+
 ##  Usage
 
 Example: generate music from an input sound + prompt
