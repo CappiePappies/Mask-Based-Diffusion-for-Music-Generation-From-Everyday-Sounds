@@ -48,6 +48,40 @@ WE CAN CHANGE LATER
 
 ---
 
+
+##  Usage
+
+Example: generate music from an input sound + prompt
+
+```python
+from src.diffusion_pipeline import MusicGenerator
+
+gen = MusicGenerator()
+gen.generate(
+    input_sound="data/sounds/clock.wav",
+    prompt="lofi hip hop",
+    output_path="results/clock_lofi.wav",
+    brightness=0.05,
+    contrast=200,
+    downshift=40
+)
+```
+
+## Results
+
+- **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
+- **CLAP Score:** 0.37 (strong semantic alignment with prompts).
+- Subjective evaluation showed **high ratings for style fit, sound preservation, and music quality**.
+
+## ( add graphs here )
+
+## Supplementary Material
+
+- Paper (ECAI 2025): \[arXiv link / DOI once available]
+- Dataset & Code Release: \[Zenodo DOI once published]
+
+✨ _This work demonstrates a new direction in spectrogram-based music generation, combining feature retention with flexible style adaptation for creative audio synthesis._
+
 ## 🎧 Sample Audio
 
   <table>
@@ -164,37 +198,3 @@ WE CAN CHANGE LATER
       </td>
       
         </table>
-
-
-##  Usage
-
-Example: generate music from an input sound + prompt
-
-```python
-from src.diffusion_pipeline import MusicGenerator
-
-gen = MusicGenerator()
-gen.generate(
-    input_sound="data/sounds/clock.wav",
-    prompt="lofi hip hop",
-    output_path="results/clock_lofi.wav",
-    brightness=0.05,
-    contrast=200,
-    downshift=40
-)
-```
-
-## Results
-
-- **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
-- **CLAP Score:** 0.37 (strong semantic alignment with prompts).
-- Subjective evaluation showed **high ratings for style fit, sound preservation, and music quality**.
-
-## ( add graphs here )
-
-## Supplementary Material
-
-- Paper (ECAI 2025): \[arXiv link / DOI once available]
-- Dataset & Code Release: \[Zenodo DOI once published]
-
-✨ _This work demonstrates a new direction in spectrogram-based music generation, combining feature retention with flexible style adaptation for creative audio synthesis._
