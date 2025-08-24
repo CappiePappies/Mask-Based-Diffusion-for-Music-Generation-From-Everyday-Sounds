@@ -5,6 +5,10 @@ This repository contains the supplementary material, datasets, and implementatio
 - We present a generative AI method for music creation from everyday sounds using spectrogram-based diffusion.
 - By adding custom masking to the Img2Img pipeline with prompt-driven style conditioning, our approach preserves input sound features while enabling flexible, fine-grained stylistic control for creative audio synthesis.
 - This enables **fine-grained creative control** while preserving the input sound’s essence, resulting in versatile and stylistically coherent music synthesis.
+  
+<img width="854" height="394" alt="architecture" src="https://github.com/user-attachments/assets/871c70dd-197f-4938-a5d8-1e71b343c98c" />
+
+
 
 The paper has been accepted for presentation at the 28th European Conference on Artificial Intelligence (ECAI'25).
 
