@@ -52,91 +52,98 @@ WE CAN CHANGE LATER
 
 ## 🎧 Sample Audio
 
+## 🎧 Sample Audio
+
 <table>
   <tr>
     <th>Input (Everyday Sound)</th>
     <th>Output (Generated Music)</th>
   </tr>
-  
   <tr>
     <td>
       <audio controls>
-        <source src="Samples\everyday_sound\clock_tick.wav" type="audio/wav">
+        <source src="samples/everyday_sound/clock_tick.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
     <td>
       <audio controls>
-        <source src="samples/sample1_output.wav" type="audio/wav">
+        <source src="samples/generated_music/sample1_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
   </tr>
-  
   <tr>
     <td>
       <audio controls>
-        <source src="samples/sample2_input.wav" type="audio/wav">
+        <source src="samples/everyday_sound/sample2_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
     <td>
       <audio controls>
-        <source src="samples/sample2_output.wav" type="audio/wav">
+        <source src="samples/generated_music/sample2_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
   </tr>
-  
   <tr>
     <td>
       <audio controls>
-        <source src="samples/sample3_input.wav" type="audio/wav">
+        <source src="samples/everyday_sound/sample3_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
     <td>
       <audio controls>
-        <source src="samples/sample3_output.wav" type="audio/wav">
+        <source src="samples/generated_music/sample3_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
   </tr>
-  
   <tr>
     <td>
       <audio controls>
-        <source src="samples/sample4_input.wav" type="audio/wav">
+        <source src="samples/everyday_sound/sample4_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
     <td>
       <audio controls>
-        <source src="samples/sample4_output.wav" type="audio/wav">
+        <source src="samples/generated_music/sample4_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
   </tr>
-  
   <tr>
     <td>
       <audio controls>
-        <source src="samples/sample5_input.wav" type="audio/wav">
+        <source src="samples/everyday_sound/sample5_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
     <td>
       <audio controls>
-        <source src="samples/sample5_output.wav" type="audio/wav">
+        <source src="samples/generated_music/sample5_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
   </tr>
-  
   <tr>
     <td>
       <audio controls>
-        <source src="samples/sample6_input.wav" type="audio/wav">
+        <source src="samples/everyday_sound/sample6_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
     <td>
       <audio controls>
-        <source src="samples/sample6_output.wav" type="audio/wav">
+        <source src="samples/generated_music/sample6_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
       </audio>
     </td>
   </tr>
 </table>
-
 
 ##  Usage
 
