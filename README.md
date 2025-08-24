@@ -41,12 +41,12 @@ WE CAN CHANGE LATER
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
 
 ---
 
-## 🎧 Usage
+##  Usage
 
 Example: generate music from an input sound + prompt
 
@@ -65,7 +65,7 @@ gen.generate(
 ```
 
 
-## 📈 Results
+##  Results
 
 * **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
 * **CLAP Score:** 0.37 (strong semantic alignment with prompts).
@@ -74,7 +74,7 @@ gen.generate(
 ( add graphs here ) 
 ---
 
-## 🔗 Supplementary Material
+##  Supplementary Material
 
 * Paper (ECAI 2025): \[arXiv link / DOI once available]
 * Dataset & Code Release: \[Zenodo DOI once published]
