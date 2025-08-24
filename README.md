@@ -18,8 +18,9 @@ The paper has been accepted for presentation at the 28th European Conference on 
 [cappiepappie/riffusion-medium-600](https://huggingface.co/cappiepappie/riffusion-medium-600)
 
 #### Colab Notebook
-[Colab notebook for music generation](https://drive.google.com/file/d/1URqlhw0f7tgZa-iFlKfyM8M7d9ptpTro/view?usp=sharing)
-[Colab notebook for training using Dreambooth by TheLastBen](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb)
+- [Colab notebook for music generation](https://drive.google.com/file/d/1URqlhw0f7tgZa-iFlKfyM8M7d9ptpTro/view?usp=sharing)
+- [Colab notebook for training using Dreambooth by TheLastBen](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb)
+
 ## Features
 
 - Mask-guided **spectrogram-to-music generation**.
