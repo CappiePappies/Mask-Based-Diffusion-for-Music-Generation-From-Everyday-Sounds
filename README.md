@@ -84,7 +84,9 @@ gen.generate(
 
 ## 🎧 Sample Audio
 
-  <table>
+## 🎧 Sample Audio
+
+<table>
   <tr>
     <th>Input (Everyday Sound)</th>
     <th>Output (Generated Music)</th>
@@ -158,7 +160,7 @@ gen.generate(
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample4_output.wav" download></a>
+      <a href="samples/generated_music/sample4_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
@@ -168,7 +170,7 @@ gen.generate(
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample5_input.wav" download></a>
+      <a href="samples/everyday_sound/sample5_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
@@ -176,7 +178,7 @@ gen.generate(
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample5_output.wav" download></a>
+      <a href="samples/generated_music/sample5_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
@@ -186,7 +188,7 @@ gen.generate(
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample6_input.wav" download>Download sample6_input.wav</a>
+      <a href="samples/everyday_sound/sample6_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
@@ -194,7 +196,7 @@ gen.generate(
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample6_output.wav" download>Download sample6_output.wav</a>
-      </td>
-      
-        </table>
+      <a href="samples/generated_music/sample6_output.wav" download>Download</a>
+       </td>
+  </tr>
+</table>
