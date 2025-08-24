@@ -1,25 +1,23 @@
 This repository contains the supplementary material, datasets, and implementation details for our paper:
 
-
 # Mask-Based-Diffusion-for-Music-Generation-From-Everyday-Sounds
-- We present a generative AI method for music creation from everyday sounds using spectrogram-based diffusion. 
-- By adding custom masking to the Img2Img pipeline with prompt-driven style conditioning, our approach preserves input sound features while enabling flexible, fine-grained stylistic control for creative audio synthesis. 
+
+- We present a generative AI method for music creation from everyday sounds using spectrogram-based diffusion.
+- By adding custom masking to the Img2Img pipeline with prompt-driven style conditioning, our approach preserves input sound features while enabling flexible, fine-grained stylistic control for creative audio synthesis.
 - This enables **fine-grained creative control** while preserving the input sound’s essence, resulting in versatile and stylistically coherent music synthesis.
 
 The paper has been accepted for presentation at the 28th European Conference on Artificial Intelligence (ECAI'25).
 
 Hugging face - https://huggingface.co/cappiepappie/riffusion-medium-600
 
+## Features
 
-##  Features
+- Mask-guided **spectrogram-to-music generation**.
+- Custom **brightness, contrast, and downshift** parameters for creative control.
+- Fine-tuned **Riffusion model** with DreamBooth for genre-specific outputs.
+- Evaluation using **SSIM, Chromagram Similarity, FAD, and CLAP** metrics.
 
-* Mask-guided **spectrogram-to-music generation**.
-* Custom **brightness, contrast, and downshift** parameters for creative control.
-* Fine-tuned **Riffusion model** with DreamBooth for genre-specific outputs.
-* Evaluation using **SSIM, Chromagram Similarity, FAD, and CLAP** metrics.
-
-
-##  Installation
+## Installation
 
 Clone this repository and install the required dependencies:
 
@@ -29,9 +27,10 @@ cd <your-repo-name>
 pip install -r requirements.txt
 ```
 
+## Repository Structure
 
-##  Repository Structure
-WE CAN CHANGE LATER 
+WE CAN CHANGE LATER
+
 ```
 ├── data/                # Preprocessed datasets (everyday sounds, music clips)
 ├── notebooks/           # Jupyter notebooks for training & evaluation
@@ -45,16 +44,13 @@ WE CAN CHANGE LATER
 
 ---
 
-##  Datasets
-
+## Datasets
 
 ---
 
 ## 🎧 Sample Audio
 
-## 🎧 Sample Audio
-
-<table>
+  <table>
   <tr>
     <th>Input (Everyday Sound)</th>
     <th>Output (Generated Music)</th>
@@ -65,12 +61,16 @@ WE CAN CHANGE LATER
         <source src="samples/everyday_sound/clock_tick.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/everyday_sound/clock_tick.wav" download>Download clock_tick.wav</a>
     </td>
     <td>
       <audio controls>
         <source src="samples/generated_music/sample1_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/generated_music/sample1_output.wav" download>Download sample1_output.wav</a>
     </td>
   </tr>
   <tr>
@@ -79,12 +79,16 @@ WE CAN CHANGE LATER
         <source src="samples/everyday_sound/sample2_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/everyday_sound/sample2_input.wav" download>Download sample2_input.wav</a>
     </td>
     <td>
       <audio controls>
         <source src="samples/generated_music/sample2_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/generated_music/sample2_output.wav" download>Download sample2_output.wav</a>
     </td>
   </tr>
   <tr>
@@ -93,12 +97,16 @@ WE CAN CHANGE LATER
         <source src="samples/everyday_sound/sample3_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/everyday_sound/sample3_input.wav" download>Download sample3_input.wav</a>
     </td>
     <td>
       <audio controls>
         <source src="samples/generated_music/sample3_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/generated_music/sample3_output.wav" download>Download sample3_output.wav</a>
     </td>
   </tr>
   <tr>
@@ -107,12 +115,16 @@ WE CAN CHANGE LATER
         <source src="samples/everyday_sound/sample4_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/everyday_sound/sample4_input.wav" download>Download sample4_input.wav</a>
     </td>
     <td>
       <audio controls>
         <source src="samples/generated_music/sample4_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/generated_music/sample4_output.wav" download>Download sample4_output.wav</a>
     </td>
   </tr>
   <tr>
@@ -121,12 +133,16 @@ WE CAN CHANGE LATER
         <source src="samples/everyday_sound/sample5_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/everyday_sound/sample5_input.wav" download>Download sample5_input.wav</a>
     </td>
     <td>
       <audio controls>
         <source src="samples/generated_music/sample5_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/generated_music/sample5_output.wav" download>Download sample5_output.wav</a>
     </td>
   </tr>
   <tr>
@@ -135,16 +151,16 @@ WE CAN CHANGE LATER
         <source src="samples/everyday_sound/sample6_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+      <br>
+      <a href="samples/everyday_sound/sample6_input.wav" download>Download sample6_input.wav</a>
     </td>
     <td>
       <audio controls>
         <source src="samples/generated_music/sample6_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
-    </td>
-  </tr>
-</table>
-
+      <br>
+      <a href="samples/generated_music/sample6_output.wav" download>Download sample6_output.wav</a>
 ##  Usage
 
 Example: generate music from an input sound + prompt
@@ -163,21 +179,17 @@ gen.generate(
 )
 ```
 
+## Results
 
-##  Results
+- **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
+- **CLAP Score:** 0.37 (strong semantic alignment with prompts).
+- Subjective evaluation showed **high ratings for style fit, sound preservation, and music quality**.
 
-* **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
-* **CLAP Score:** 0.37 (strong semantic alignment with prompts).
-* Subjective evaluation showed **high ratings for style fit, sound preservation, and music quality**.
+## ( add graphs here )
 
-( add graphs here ) 
----
+## Supplementary Material
 
-##  Supplementary Material
+- Paper (ECAI 2025): \[arXiv link / DOI once available]
+- Dataset & Code Release: \[Zenodo DOI once published]
 
-* Paper (ECAI 2025): \[arXiv link / DOI once available]
-* Dataset & Code Release: \[Zenodo DOI once published]
-
-
-
-✨ *This work demonstrates a new direction in spectrogram-based music generation, combining feature retention with flexible style adaptation for creative audio synthesis.*
+✨ _This work demonstrates a new direction in spectrogram-based music generation, combining feature retention with flexible style adaptation for creative audio synthesis._
