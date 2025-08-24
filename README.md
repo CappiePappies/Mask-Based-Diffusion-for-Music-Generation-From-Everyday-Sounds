@@ -8,6 +8,8 @@ This repository contains the supplementary material, datasets, and implementatio
 
 The paper has been accepted for presentation at the 28th European Conference on Artificial Intelligence (ECAI'25).
 
+Hugging face - https://huggingface.co/cappiepappie/riffusion-medium-600
+
 
 ##  Features
 
