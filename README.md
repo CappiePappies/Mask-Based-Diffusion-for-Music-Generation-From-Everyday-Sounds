@@ -82,9 +82,7 @@ gen.generate(
 
 ✨ _This work demonstrates a new direction in spectrogram-based music generation, combining feature retention with flexible style adaptation for creative audio synthesis._
 
-## 🎧 Sample Audio
-
-## 🎧 Sample Audio
+## 🎧 Generated Audio Samples
 
 <table>
   <tr>
@@ -94,109 +92,109 @@ gen.generate(
   <tr>
     <td>
       <audio controls>
-        <source src="samples/everyday_sound/clock_tick.wav" type="audio/wav">
+        <source src="Samples/everyday_sound/clock_tick.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/clock_tick.wav" download>Download</a>
+      <a href="Samples/everyday_sound/clock_tick.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
-        <source src="samples/generated_music/sample1_output.wav" type="audio/wav">
+        <source src="Samples/generated_music/sample1_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample1_output.wav" download>Download</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <audio controls>
-        <source src="samples/everyday_sound/sample2_input.wav" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-      <br>
-      <a href="samples/everyday_sound/sample2_input.wav" download>Download</a>
-    </td>
-    <td>
-      <audio controls>
-        <source src="samples/generated_music/sample2_output.wav" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-      <br>
-      <a href="samples/generated_music/sample2_output.wav" download>Download</a>
+      <a href="Samples/generated_music/sample1_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
     <td>
       <audio controls>
-        <source src="samples/everyday_sound/sample3_input.wav" type="audio/wav">
+        <source src="Samples/everyday_sound/sample2_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample3_input.wav" download>Download</a>
+      <a href="Samples/everyday_sound/sample2_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
-        <source src="samples/generated_music/sample3_output.wav" type="audio/wav">
+        <source src="Samples/generated_music/sample2_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample3_output.wav" download>Download</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <audio controls>
-        <source src="samples/everyday_sound/sample4_input.wav" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-      <br>
-      <a href="samples/everyday_sound/sample4_input.wav" download>Download</a>
-    </td>
-    <td>
-      <audio controls>
-        <source src="samples/generated_music/sample4_output.wav" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-      <br>
-      <a href="samples/generated_music/sample4_output.wav" download>Download</a>
+      <a href="Samples/generated_music/sample2_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
     <td>
       <audio controls>
-        <source src="samples/everyday_sound/sample5_input.wav" type="audio/wav">
+        <source src="Samples/everyday_sound/sample3_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample5_input.wav" download>Download</a>
+      <a href="Samples/everyday_sound/sample3_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
-        <source src="samples/generated_music/sample5_output.wav" type="audio/wav">
+        <source src="Samples/generated_music/sample3_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample5_output.wav" download>Download</a>
+      <a href="Samples/generated_music/sample3_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
     <td>
       <audio controls>
-        <source src="samples/everyday_sound/sample6_input.wav" type="audio/wav">
+        <source src="Samples/everyday_sound/sample4_input.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample6_input.wav" download>Download</a>
+      <a href="Samples/everyday_sound/sample4_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
-        <source src="samples/generated_music/sample6_output.wav" type="audio/wav">
+        <source src="Samples/generated_music/sample4_output.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample6_output.wav" download>Download</a>
+      <a href="Samples/generated_music/sample4_output.wav" download>Download</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="Samples/everyday_sound/sample5_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <br>
+      <a href="Samples/everyday_sound/sample5_input.wav" download>Download</a>
+    </td>
+    <td>
+      <audio controls>
+        <source src="Samples/generated_music/sample5_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <br>
+      <a href="Samples/generated_music/sample5_output.wav" download>Download</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="Samples/everyday_sound/sample6_input.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <br>
+      <a href="Samples/everyday_sound/sample6_input.wav" download>Download</a>
+    </td>
+    <td>
+      <audio controls>
+        <source src="Samples/generated_music/sample6_output.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <br>
+      <a href="Samples/generated_music/sample6_output.wav" download>Download</a>
        </td>
   </tr>
 </table>
