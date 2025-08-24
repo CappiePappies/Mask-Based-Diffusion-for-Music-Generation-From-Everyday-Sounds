@@ -162,6 +162,8 @@ WE CAN CHANGE LATER
       <br>
       <a href="samples/generated_music/sample6_output.wav" download>Download sample6_output.wav</a>
   <table>
+
+  
 ##  Usage
 
 Example: generate music from an input sound + prompt
