@@ -62,7 +62,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/clock_tick.wav" download>Download clock_tick.wav</a>
+      <a href="samples/everyday_sound/clock_tick.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
@@ -70,7 +70,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample1_output.wav" download>Download sample1_output.wav</a>
+      <a href="samples/generated_music/sample1_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample2_input.wav" download>Download sample2_input.wav</a>
+      <a href="samples/everyday_sound/sample2_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
@@ -88,7 +88,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample2_output.wav" download>Download sample2_output.wav</a>
+      <a href="samples/generated_music/sample2_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
@@ -98,7 +98,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample3_input.wav" download>Download sample3_input.wav</a>
+      <a href="samples/everyday_sound/sample3_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
@@ -106,7 +106,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample3_output.wav" download>Download sample3_output.wav</a>
+      <a href="samples/generated_music/sample3_output.wav" download>Download</a>
     </td>
   </tr>
   <tr>
@@ -116,7 +116,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample4_input.wav" download>Download sample4_input.wav</a>
+      <a href="samples/everyday_sound/sample4_input.wav" download>Download</a>
     </td>
     <td>
       <audio controls>
@@ -124,7 +124,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample4_output.wav" download>Download sample4_output.wav</a>
+      <a href="samples/generated_music/sample4_output.wav" download></a>
     </td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/everyday_sound/sample5_input.wav" download>Download sample5_input.wav</a>
+      <a href="samples/everyday_sound/sample5_input.wav" download></a>
     </td>
     <td>
       <audio controls>
@@ -142,7 +142,7 @@ WE CAN CHANGE LATER
         Your browser does not support the audio element.
       </audio>
       <br>
-      <a href="samples/generated_music/sample5_output.wav" download>Download sample5_output.wav</a>
+      <a href="samples/generated_music/sample5_output.wav" download></a>
     </td>
   </tr>
   <tr>
@@ -161,6 +161,7 @@ WE CAN CHANGE LATER
       </audio>
       <br>
       <a href="samples/generated_music/sample6_output.wav" download>Download sample6_output.wav</a>
+  <table>
 ##  Usage
 
 Example: generate music from an input sound + prompt
