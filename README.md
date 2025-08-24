@@ -84,7 +84,15 @@ gen.generate(
 - **CLAP Score:** 0.37 (strong semantic alignment with prompts).
 - Subjective evaluation showed **high ratings for style fit, sound preservation, and music quality**.
 
-## ( add graphs here )
+- SSIM scores across downshift values for 65 spectrograms. Mean scores with SEM error bars (blue) show a consistent decline, highlighting the trade-off between structural preservation and generative freedom.
+
+  <img width="850" height="552" alt="ssim_error" src="https://github.com/user-attachments/assets/a7af4cc0-9d62-421e-aca8-c7b0037bf7f7" />
+
+
+- Chromagram Similarity (CENS) across downshift values for 65 spectrograms.Mean scores with SEM error bars (blue) show that low to moderate downshifts best preserve harmonic similarity, while large downshifts substantially reduce alignment with the source everyday sound
+  
+<img width="850" height="552" alt="cens_error" src="https://github.com/user-attachments/assets/c28e4c35-3fd9-46e8-8b41-aaebf35a06ef" />
+
 
 ## Supplementary Material
 
