@@ -85,7 +85,7 @@ gen.generate(
 ## 🎧 Generated Audio Samples
 
 **View on Notion:**  
-[View Audio Samples here]([https://www.notion.so/Output-195b1c1a93fc809c9e97d00050a2926a](https://scandalous-baritone-3ee.notion.site/Output-195b1c1a93fc809c9e97d00050a2926a))
+[View here](https://scandalous-baritone-3ee.notion.site/Output-195b1c1a93fc809c9e97d00050a2926a)
 
 <table>
   <tr>
