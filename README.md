@@ -27,6 +27,9 @@ The paper has been accepted for presentation at the 28th European Conference on 
 - Fine-tuned **Riffusion model** with DreamBooth for genre-specific outputs.
 - Evaluation using **SSIM, Chromagram Similarity, FAD, and CLAP** metrics.
 
+## Performance Details
+All training and inference were conducted using Google Colab Pro, leveraging both NVIDIA A100 and T4 GPUs. The average inference time to generate a 5-second audio clip from a spectrogram and prompt is approximately 5-10 seconds on an T4 GPU.
+
 ## Results
 
 - **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
