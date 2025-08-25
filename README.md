@@ -9,7 +9,6 @@ This repository contains the supplementary material, datasets, and implementatio
 <img width="854" height="394" alt="architecture" src="https://github.com/user-attachments/assets/871c70dd-197f-4938-a5d8-1e71b343c98c" />
 
 
-
 The paper has been accepted for presentation at the 28th European Conference on Artificial Intelligence (ECAI'25).
 
 
@@ -28,56 +27,6 @@ The paper has been accepted for presentation at the 28th European Conference on 
 - Fine-tuned **Riffusion model** with DreamBooth for genre-specific outputs.
 - Evaluation using **SSIM, Chromagram Similarity, FAD, and CLAP** metrics.
 
-## Installation
-
-Clone this repository and install the required dependencies:
-
-```bash
-git clone https://github.com/<your-repo-name>.git
-cd <your-repo-name>
-pip install -r requirements.txt
-```
-
-## Repository Structure
-
-WE CAN CHANGE LATER
-
-```
-├── data/                # Preprocessed datasets (everyday sounds, music clips)
-├── notebooks/           # Jupyter notebooks for training & evaluation
-├── src/                 # Core implementation (masking, diffusion, evaluation)
-│   ├── mask_generation.py
-│   ├── diffusion_pipeline.py
-│   ├── evaluation.py
-├── results/             # Generated outputs & evaluation logs
-├── README.md            # Project documentation
-```
-
----
-
-## Datasets
-
----
-
-
-##  Usage
-
-Example: generate music from an input sound + prompt
-
-```python
-from src.diffusion_pipeline import MusicGenerator
-
-gen = MusicGenerator()
-gen.generate(
-    input_sound="data/sounds/clock.wav",
-    prompt="lofi hip hop",
-    output_path="results/clock_lofi.wav",
-    brightness=0.05,
-    contrast=200,
-    downshift=40
-)
-```
-
 ## Results
 
 - **FAD Score:** 0.570 (high perceptual similarity to human preference benchmarks).
@@ -92,14 +41,6 @@ gen.generate(
 - Chromagram Similarity (CENS) across downshift values for 65 spectrograms.Mean scores with SEM error bars (blue) show that low to moderate downshifts best preserve harmonic similarity, while large downshifts substantially reduce alignment with the source everyday sound
   
 <img width="850" height="552" alt="cens_error" src="https://github.com/user-attachments/assets/c28e4c35-3fd9-46e8-8b41-aaebf35a06ef" />
-
-
-## Supplementary Material
-
-- Paper (ECAI 2025): \[arXiv link / DOI once available]
-- Dataset & Code Release: \[Zenodo DOI once published]
-
-✨ _This work demonstrates a new direction in spectrogram-based music generation, combining feature retention with flexible style adaptation for creative audio synthesis._
 
 ## 🎧 Generated Audio Samples
 
